@@ -18,6 +18,11 @@
 
         </activity>
         <activity android:name="com.mohsenafana.payment.PaymentCardCollections">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
         <activity android:name="com.mohsenafana.payment.PaymentCardDetails">
@@ -27,11 +32,6 @@
 
         </activity>
         <activity android:name="com.mohsenafana.payment.PaymentSuccessDialog">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
      </application>
